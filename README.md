@@ -69,7 +69,9 @@
 
 + Select "Enable Test Ads" to see if your integration is working right.  
 
+<!--
 + Check out some [integration scenarios](https://github.com/Plakc/plakc-unity/wiki/Integration-Scenarios) for best practices on integrating PLAKC effectively.
+-->
 
 ## CONTACT ##
 * Visit [plakc.com](www.plakc.com) for more information
