@@ -5,7 +5,7 @@
 
 ## ABOUT THIS REPOSITORY 
 + This repository contains PLAKC Unity3D SDK.
-+ Current version is 2018.1.0  
++ Current version is 2019.1.0  
 + Links:
     - [Releases](https://github.com/Plakc/plakc-unity/releases)  
     - [FAQ](https://github.com/Plakc/plakc-unity/wiki/FAQ)  
