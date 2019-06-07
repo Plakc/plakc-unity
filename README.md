@@ -60,7 +60,7 @@
     
   _We may feature advertising within our Service. The advertisers may collect and use information about you, such as your Service session activity, device identifier, MAC address, IMEI, geo-location information, installed applications and IP address. They may use this information to provide advertisements of interest to you. In addition, you may see our games advertised in other services. After clicking on one of these advertisements and installing our game, you will become a user of our Service. In order to verify the installs, a device identifier may be shared with the advertiser._
 
-
+___You can find a sample privacy policy [here](https://github.com/Plakc/plakc-unity/wiki/Sample-Privacy-Policy)___
 ## TIPS ##
 
 + Be sure to use a transparent / alpha shader for your ad display renderers if you want the ads to be so.
