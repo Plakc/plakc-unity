@@ -17,20 +17,20 @@
   
 ## QUICK INTEGRATION GUIDE ##
 
-1. REGISTERING YOUR GAME
+__1. REGISTERING YOUR GAME__
   + Go to [our developer page](http://www.plakc.ninja). Sign up if you haven't and then sign in. Follow the instructions to register you game and obtain a game ID.
     
-2. GETTING THE SDK
+__2. GETTING THE SDK__
   + Go to the [releases page](https://github.com/Plakc/plakc-unity/releases/latest). Download the latest Plakc Unity SDK unitypackage file from the downloads section.  
   + Import the unitypackage.  
 	
-3. SETTING UP AD SPOTS
+__3. SETTING UP AD SPOTS__
   + Go to `Toolbar > Plakc > Configuration` to enter your Developer ID, Game ID integration. While your game is in development, check the "Test Mode" button. 
   + Go to a scene you want to show ads in and click on `Toolbar > Plakc > Create Ad Unit` followed by the type of ad unit you want to create. The types available are in-game billboard and UI screen ads. Place the ads in the game's environment and UI as desired.
   + Click on `Plakc>Add Initializer Script to Scene` on the first scene of your game to create a PLAKC initializer object. This onject is responsible for invoking the SDKs start method.      	
   
-4. SDK FUNCTIONS
-    + You can also call the following method to initialize the Sdk at any time, the Initializer object described above does that on its own.  
+__4. SDK FUNCTIONS__  
+   + You can also call the following method to initialize the Sdk at any time, the Initializer object described above does that on its own.  
   ```
   Plakc.Sdk.Start(hasAds => {
         if(hasAds)
@@ -48,12 +48,12 @@
   Plakc.Sdk.HasAds(); // returns bool
   ```
   
-5. BUILD CONFIGURATION
+__5. BUILD CONFIGURATION__
   - Stripping Level (under `Player Settings>Other Settings`) should be set to **Disabled**. This is critical.  
   - On Android, add the following Activity to the main AndroidManifest.xml file : `<activity android:name="com.plakc.browser.PlakcBrowserActivity" android:configChanges="orientation|screenSize|uiMode|screenLayout|smallestScreenSize" android:hardwareAccelerated="true" android:windowSoftInputMode="stateAlwaysHidden" />`
   - The SDK currently does not support IL2CPP, requires full .NET 2.0 support  
   
-6. PUBLISHING  
+__6. PUBLISHING__
   - Due to complaince requirements, Google Play needs developers to disclose Ad Network activity in their privacy policy. Add the following clause to your provacy policy :
     
   _Ad Networks_  
